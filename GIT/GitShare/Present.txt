@@ -1,0 +1,4 @@
+1 Basis CVS vs GIT
+2 Theory // show demo practice
+  -> Init -> Config -> Create Branch -> Switch Branch -> Merge Code -> Resolve conflict -> Revert Commit -> Pull -> Push -> Fetch -> diff....
+3. Process (clone from develop branch for feature branch + CI Jenkins) + Branch model + Show Bitbucket if 

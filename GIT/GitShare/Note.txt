@@ -1,0 +1,30 @@
+mvn gwt:debug -o
+mvn gwt:run
+mvn test
+mvn clean install -DskipTests = true
+mvn test -Dtest=classname test
+mvn install -T8
+
+frontoffice-fordevtma
+GIT:
+git push origin <your branch> ("master, develop, GBST...")
+git branch -> show branch local
+git checkout <branch nanme> -> switch to branch name
+git checkout -b <branch name> -> create new branch name
+git reset --hard
+git log
+git reset <committed code>
+git diff > <file> <comparedname>
+git merge <branchName>: merge bracnhName to current working branch
+git stash
+git stash pop
+git branch -> show branches on local repository
+git help
+
+// Config Email, User Name, Endline Format
+git config --global user.name "Nhu Ho"
+git config --global user.email "hhnhu@tma.com.vn"
+git config --global core.autocrlf false
+
+$ git diff > d:\trung.diff
+vim ~/.gitconfig
